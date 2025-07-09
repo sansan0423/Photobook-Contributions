@@ -1,7 +1,6 @@
 # Photobook-Contributions
-Commit and Activity done while interning in Photobook Malaysia
 
-# Bitbucket Contributions Log
+## Bitbucket Contributions Log
 
 **Internship Activity at Photobook Malaysia**
 
