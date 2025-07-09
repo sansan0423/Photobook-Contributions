@@ -1,0 +1,33 @@
+name: Bitbucket Work Logger
+
+on:
+  schedule:
+    - cron: '0 13 * * *'  # 9 PM Malaysia time daily
+  workflow_dispatch:
+
+jobs:
+  log-bitbucket-work:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Git identity
+        run: |
+          git config user.name "sansan0423"
+          git config user.email "sanchitasreedharan05@gmail.com"
+
+      - name: Append to log file
+        run: |
+          LOGFILE="bitbucket-log.md"
+          DATE=$(date +"%Y-%m-%d")
+          echo "## $DATE" >> $LOGFILE
+          echo "- Worked on Bitbucket project at Photobook Malaysia 💼" >> $LOGFILE
+          echo "" >> $LOGFILE
+
+      - name: Commit and push changes
+        run: |
+          git add bitbucket-log.md
+          git commit -m "Log Bitbucket work on $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
