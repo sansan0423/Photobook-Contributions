@@ -22,7 +22,7 @@ This repository serves as a daily log of commit activity and coding tasks comple
 
 All actual code resides in a private Bitbucket repository and is the property of Photobook Malaysia. This repo contains **only public logs** of activity and does not expose any proprietary content
 
-Have A Wonderful Day Kings and Queens 
+# Have A Wonderful Day Kings and Queens 
 ---
 
 > _Maintained automatically via GitHub Actions._
