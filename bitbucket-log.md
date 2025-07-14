@@ -31,3 +31,6 @@
 ## 2025-07-13
 - Worked on Bitbucket project at Photobook Malaysia 💼
 
+## 2025-07-14
+- Worked on Bitbucket project at Photobook Malaysia
+
