@@ -70,3 +70,6 @@
 ## 2025-07-20
 - Worked on Bitbucket project at Photobook Malaysia
 
+## 2025-07-20
+- Worked on Bitbucket project at Photobook Malaysia 💼
+
