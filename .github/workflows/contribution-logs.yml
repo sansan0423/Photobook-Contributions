@@ -1,8 +1,8 @@
 name: Bitbucket Work Logger
 
 on:
-  schedule:
-    - cron: '0 13 * * *'  # 9 PM Malaysia time daily
+  # schedule:
+  #   - cron: '0 13 * * *'  # 9 PM Malaysia time daily
   workflow_dispatch:
 
 jobs:
